@@ -14,8 +14,8 @@ fn main() {
 
         let score: f32 = match score.trim().parse() {
             Ok(num) => num,
-            Err(error) => {
-                println!("Non-number entered {:?}", error);
+            Err(_) => {
+                println!("Non-number entered: {:?}", score.trim());
                 continue;
             }
         };
