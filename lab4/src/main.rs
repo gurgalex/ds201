@@ -56,14 +56,14 @@ fn main() {
 
 pub fn letter_grade(final_point: f32) -> String {
     if final_point >= 92.5 {
-        return String::from("A");
+        String::from("A")
     } else if final_point >= 82.5 {
-        return String::from("B");
+        String::from("B")
     } else if final_point >= 72.5 {
-        return String::from("C");
+        String::from("C")
     } else if final_point >= 62.5 {
-        return String::from("D");
+        String::from("D")
     } else {
-        return String::from("F, Sorry you fail");
+        String::from("F, Sorry you fail")
     }
 }
