@@ -22,7 +22,6 @@ fn main() {
 
         let letter: String = letter_grade(score);
         println!("Your points {} Your grade: {}", score, letter);
-        io::stdout().flush().unwrap();
 
         print!("Do you have more student Final points? ");
         io::stdout().flush().unwrap();
